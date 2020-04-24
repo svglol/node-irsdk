@@ -1,17 +1,21 @@
-# Visual Studio
-
-*.njsproj
-*.vcxproj.filters
-*.sln
-*.vcxproj
-.ntvs_analysis.dat
-*.sdf
-*.suo
-*.vcxproj.user
-
-# Misc
-.vscode
+.DS_Store
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+coverage
 node_modules/
-build/
-prebuilds/
 npm-debug.log
+npm-debug.log.*
+thumbs.db
+!.gitkeep
+data/tmp/
+.tmp/
+tmp/
+.cache
+dist
+coverage
+__coverage__
+yarn.lock
+/dist
+/build

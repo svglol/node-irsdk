@@ -1,6 +1,6 @@
 {
   "name": "node-irsdk",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "iRacing SDK implementation for Node.js",
   "main": "src/node-irsdk.js",
   "scripts": {
@@ -34,6 +34,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "changelog": "1.*",
+    "electron-rebuild": "^1.10.0",
     "jsdoc-to-markdown": "^5.0.0",
     "mocha": "^6.1.4",
     "moment": "^2.19.3",
